@@ -61,9 +61,56 @@ ul, a, .top .header h2{
     align-items: center;
     width: 450px;
     height: 250px;
-    text-align: centerss;
+    text-align: center;
     background-color: #E5E7EB;
 }
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    ;
+    gap: 40px;
+    padding: 30px;
+}
+
+.middle .info div h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.middle .info .pagal{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.middle .info .pagal .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.middle .info .pagal .wrapper .img{
+    border-radius: 15px;
+    border: 5px solid blue;
+    width: 140px;
+    height: 140px;
+}
+
+.middle .info .pagal .wrapper p{
+    width: 140px;
+    text-align: center;
+    margin-left: 2.9%;
+}
+
 
 .intro .content button{
     width: 90px;
@@ -74,4 +121,56 @@ ul, a, .top .header h2{
     background-color: blue;
 }
 
+
+.middle .quote-wrapper{
+    display: flex;
+    background-color: #E5E7EB;
+    width: 100%;
+    justify-content: center;
+}
+
+.quote{
+    padding: 40px;
+    font-size: 36px;
+    color: #1F2937;
+    width: 680px;
+}
+.quote .temp p{ 
+    float: right;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.bottom{
+    padding: 30px;
+}
+.bottom div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+}
+
+.bottom div .container{
+    display: flex;
+    width: 880px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+}
+
+.bottom div .container .pers{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom div .container .button button{
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 90px;
+    
+}
 
